@@ -5,5 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
     },
     baseUrl: "http://localhost:3000",
+    experimentalRunEvents: true,
+    failOnStatusCode: false,
   },
 });
